@@ -59,6 +59,25 @@ hermes skills install multi-agent-orchestration-v2
 
 ## 版本迭代
 
+### v2.1 (2026-06-01)
+
+**新增：**
+
+| 模块 | v2.0 | v2.1 |
+|:-----|:------|:------|
+| 汇报监控 | 人工检查 | **cron no_agent 5min 自动检测 → 微信通知** |
+| 子智能体沟通 | 协议写在 shared_commands.md | **协议写入每个子智能体的 MEMORY.md** |
+| 版本管理 | 无 | **GitHub 仓库 Hermes-agent-Tanue** |
+
+**新增文件：**
+- `scripts/watch_reports.py` — 子智能体汇报自动监控（no_agent，零 token）
+- `README.md` — 中英双语工作哲学+版本迭代说明
+
+**协议增强：**
+- 6 个子智能体 MEMORY.md 全部写入汇报协议（知远/子墨/守真/明轩/猎岗/知凡）
+- 知凡 5 个写作技能（science-writer/humanizer/ideation/article-structure/tech-simplifier）已创建并通过批复
+- 守真验证流程升级：checklist 逐项验证 + evidence 证据链
+
 ### v2.0 (2026-06-01)
 
 **核心升级：**
@@ -140,6 +159,25 @@ Or manually copy to `~/.hermes/skills/`.
 ---
 
 ## Changelog
+
+### v2.1 (2026-06-01)
+
+**New:**
+
+| Module | v2.0 | v2.1 |
+|:-------|:------|:------|
+| Report Monitoring | Manual check | **cron no_agent 5min auto-detect → WeChat notify** |
+| Sub-agent Comms | Protocol in shared_commands.md | **Protocol in each sub-agent's MEMORY.md** |
+| Version Control | None | **GitHub repo Hermes-agent-Tanue** |
+
+**New files:**
+- `scripts/watch_reports.py` — auto report monitoring (no_agent, zero token)
+- `README.md` — bilingual philosophy + changelog
+
+**Protocol enhancements:**
+- All 6 sub-agents got report protocol in MEMORY.md
+- Zhifan's 5 writing skills approved
+- Shouzhen verification upgraded with checklist + evidence
 
 ### v2.0 (2026-06-01)
 
